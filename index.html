@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="css/webfonts/all.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Document</title>
+</head>
+
+<body>
+
+
+    <div class="nav-btn">
+        <button class="navbtn"><i class="fa-solid fa-bars"></i></button>
+    </div>
+    <div class="nav">
+
+        <ul class="d-none">
+            <li><button class="btn logout">log out</button></li>
+        </ul>
+    </div>
+
+    <section class="login">
+        <div class="form-card">
+            <h2>smart login system</h2>
+            <form id="form" action="">
+                <input class="d-none" type="text" name="" id="userName" placeholder="Enter Your Name">
+
+                <input type="email" name="" id="email" placeholder="Enter Your Email" required>
+
+                <input type="password" name="" id="password" placeholder="Enter Your Password" required>
+
+                <button onclick="login()" class="btn btn1">log in</button>
+                <button onclick="logup()" class="btn btn2 d-none">sign up</button>
+            </form>
+            <p class="pUp ">Don’t have an account? <a class="signup" href="#">sign up</a></p>
+            <p class="pIn d-none">Already have an account? <a class="signIn" href="#">sign in</a></p>
+        </div>
+    </section>
+
+    <script src="js/index.js"></script>
+</body>
+
+</html>
